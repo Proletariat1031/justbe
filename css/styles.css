@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: white;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    font-family: "Amatic Sc", cursive;
+    font-size: 3rem;
+    font-weight: 600;
+    color: black
+}
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background: rgb(107, 168, 153);
+    background: linear-gradient(153deg, rgba(107, 168, 153, 1) 0%, rgba(30, 133, 151, 1) 100%);
+    height: 60px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+.nav {
+    display: flex;
+    justify-content: left;
+    padding: 10px
+}
+
+.nav__item a {
+    font-family: "Amatic Sc", cursive;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.nav-logo {
+    position: fixed;
+    right: 40px;
+    top: 2.5px;
+    width: 55px;
+    height: 55px;
+}
+
+.nav-logo img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#home {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#home .content-area {
+    height: calc(100vh - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    /* background: red; */
+}
+
+.title-area {
+    display: block;
+    position: absolute;
+    width: 550px;
+    height: auto;
+    margin: 20px;
+    top: 30px;
+}
+
+#title {
+    display: flex;
+    font-family: "Amatic Sc", cursive;
+    font-size: 18rem;
+    font-weight: 600;
+    color: #1e8597;
+}
+
+#with {
+    display: flex;
+    position: relative;
+    left: 50px;
+    top: -30px;
+    font-family: "Amatic Sc", cursive;
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(247, 161, 130);
+}
+
+#author {
+    display: flex;
+    position: relative;
+    left: 145px;
+    top: -80px;
+    font-family: "Amatic Sc", cursive;
+    font-size: 7rem;
+    font-weight: 600;
+    color: rgb(247, 161, 130);
+}
+
+.motto {
+    display: block;
+    position: absolute;
+    top: 475px;
+    font-family: "Amatic Sc", cursive;
+    font-size: 5rem;
+    font-weight: 600;
+    color: #ffbe5d;
+}
+
+.mural {
+    display: block;
+    position: relative;
+    top: 300px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.mural img {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background: rgb(107, 168, 153);
+    background: linear-gradient(153deg, rgba(107, 168, 153, 1) 0%, rgba(30, 133, 151, 1) 100%);
+    height: 60px;
+    bottom: 0px;
+    /* box-shadow: 0px -5px 5px 0px rgba(247, 161, 130, 0.84); */
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+}
+
+.social__item {
+    width: 45px;
+    height: 45px;
+    padding: 0 70px;
+}
+
+.social__item img {
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px 0px rgba(255, 255, 255, 0.84);
+}
+
+#about .content-area {
+    height: calc(100vh - 90px);
+    display: flex;
+    background: yellow;
+}
+
+#about .intro1 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    top: 100px;
+    background: blue;
+}
+
+#about .headshot {
+    height: 350px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.headshot img {
+    height: 100%;
+    border-radius: 8px;
+}
+
+.intro1 p {
+    display: block;
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    /* text-transform: uppercase; */
+    position: absolute;
+    width: 80%;
+    left: 280px;
+    top: 30px;
+}
